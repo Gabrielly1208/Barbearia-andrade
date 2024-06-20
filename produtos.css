@@ -157,10 +157,46 @@ th, td{
   text-align: center;
   font-size: 2em;
   margin: 0 0 1em;
-  
+  clear: left;
 }
 
 .utensilios{
   width: 120px;
   margin: 0 20 px 20px 0;
+  float: left;
+}
+
+.principal{
+  background: #FEFEFE;
+  padding: 1 em 0;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.principal p{
+  margin: 0 0 1em;
+}
+
+.principal strong{
+  font-weight: bold;
+}
+
+.principal em{
+  font-style: italic;
+}
+
+.benefícios{
+  padding: 3em 0;
+  background: #888888;
+  margin: 0 auto;
+}
+
+.lista-benefícios {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.imagem-benefícios {
+ width:50%;
 }
