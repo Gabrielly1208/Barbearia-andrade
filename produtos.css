@@ -198,5 +198,21 @@ th, td{
 }
 
 .imagem-benefícios {
- width:50%;
+width:50%;
+}
+
+.mapa{
+  padding: 3em 0;
+  margin: 0 auto;
+  background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa p{
+  margin: 0 0 2em;
+  text-aling: center;
+}
+
+.mapa-conteudo{
+  width: 940px;
+  margin: 0 auto;
 }
