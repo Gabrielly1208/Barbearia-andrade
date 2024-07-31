@@ -165,6 +165,14 @@ th, td{
   clear: left;
 }
 
+.titulo-principal:before{
+  content: "'"
+}
+
+.titulo-principal:after{
+  content: "'"
+}
+
 .utensilios{
   width: 120px;
   margin: 0 20 px 20px 0;
@@ -202,6 +210,14 @@ th, td{
   vertical-align: top;
 }
 
+.lista-benefícios .item:before{
+  content: "✞";
+}
+
+.lista-benefícios .item:first-child{
+font-weight: bold;✞
+  
+}
 .imagem-benefícios {
 width:50%;
 }
@@ -220,4 +236,8 @@ width:50%;
 .mapa-conteudo{
   width: 940px;
   margin: 0 auto;
+  
+.video {
+  widht: 560px;
+  margin: 1em auto;
 }
